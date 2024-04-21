@@ -1,0 +1,55 @@
+                              • return •
+• This is a rather complex function that is difficult to use, but if you learn it, you can create better scripts •
+• Example script with "return": •
+
+function returnNumber()
+    return 10
+end
+
+local result = returnNumber()
+print(result)
+
+• This script will output 10 to the console and using this script you can make a mini calculator •
+• Here's another example script with "return": •
+
+function isPositive(number)
+    return number > 0
+end
+
+local check = isPositive(5)
+print(check)
+
+• This script will output "true" to the console and using this script you can check numbers •
+• Here is another example script: •
+
+function greeting(name)
+    return "Hello " .. name .. ""
+end
+
+local message = greeting("ADSKer")
+print(message)
+
+• This script combines words into one and displays in the console "Hello ADSKer" •
+• Let's move on to more complex functions: •
+
+function multipleReturn()
+    return 1, 2, 3
+end
+
+local a, b, c = multipleReturn()
+print(a, b, c)
+
+• This script replaces letters with numbers and the console will display "1, 2, 3". You can put another number, for example "2, 3, 4", "5, 9, 3", "4, 4, 4" and more •
+• in return You can’t put letters, otherwise it will display in the console something like: "nil, 2, 3" •
+• Let's move on to the next example: •
+
+function add(a, b)
+    local sum = a + b
+    return sum
+end
+
+local result = add(3, 5)
+print(result)
+
+• This script calculates the sum of two numbers •
+• I hope I helped you in creating scripts •
